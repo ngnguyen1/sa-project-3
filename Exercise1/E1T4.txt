@@ -1,0 +1,5 @@
+# Least Privilege Violation
+IAM role has full access to all s3 buckets. Roles should be specific to the list of resources and actions.
+
+# Apply Default Server-side Encryption to the S3 Bucket
+This will cause the S3 service to encrypt any objects that are stored by default.
